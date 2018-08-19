@@ -1,0 +1,183 @@
+/* color references
+#017163 : foxton green
+#fff000 : foxton yellow
+*/
+
+/* General */
+
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.input-group-text {
+    background-color: #017163;
+    color: white;
+}
+
+blockquote {
+	padding: 0;
+	border: none;
+	font-style: italic;
+	text-align: left;
+}
+
+blockquote cite {
+	display: block;
+	color: #777;
+	margin: 15px 0 0 0;
+}
+
+blockquote:before {
+	display: none;
+}
+
+/* hero */
+
+#hero {
+    background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
+    margin-bottom: 0px;
+}
+
+#hero btn-primary {
+    background-color: #017163;
+    color: white;
+    border-color: transparent;
+}
+
+/* opt-in*/
+
+#subscribe {
+    background: #017163;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+}
+
+#subscribe p {
+    margin: 7px 0 0 0;
+}
+
+#subscribe .btn-primary {
+    background-color: #fff000;
+    color: #000;
+    border-color: transparent;
+}
+
+/* recent-listings */
+
+#recent-listings {
+    background: #fff;
+    padding: 20px 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+}
+
+#recent-listings btn-primary {
+    background-color: #017163;
+    color: white;
+    border-color: transparent;
+}
+
+#recent-listings .card-footer {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#recent-listings .btn-primary {
+    background-color: #017163;
+    color: white;
+    border-color: transparent;
+}
+
+#recent-listings .btn-secondary {
+    background-color: #fff000;
+    color: black;
+    border-color: transparent;
+}
+
+/* Bottom left text */
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #017163;
+    color: white;
+}
+
+/* Top right text */
+
+.top-right {
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    right: 0px;
+    background-color: #dc3545;
+}
+
+/* Bottom right text */
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* SERVICES OFFERED */
+#course-features {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+}
+
+/* PROJECT FEATURES */
+#project-features {
+    padding: 20px 0;
+    color: white;
+
+    background: #3e4249;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+	text-align: center;
+}
+
+/* TESTIMONIALS */
+#kudos {
+    padding: 20px 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-size: 1.2em;
+	text-align: center;
+}
+
+.testimonial {
+	margin-bottom: 60px;
+}
+
+.testimonial img {
+	border-radius: 50%;
+}
+
